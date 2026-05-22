@@ -1,0 +1,36 @@
+TÍTULO: Sistemas de Alerta Temprana para Estudiantes en Riesgo de Deserción
+REFERENCIA: Arnold, K. E., & Pistilli, M. D. (2012). Course Signals at Purdue: Using learning analytics to increase student success. Proceedings of LAK'12.
+
+RESUMEN:
+Los sistemas de alerta temprana (Early Warning Systems, EWS) utilizan análisis de datos para identificar estudiantes en riesgo antes de que la deserción ocurra, permitiendo intervenciones preventivas personalizadas.
+
+COMPONENTES DE UN EWS EFECTIVO:
+1. Modelo predictivo: actualizado al final del primer mes y al cierre del primer semestre
+2. Sistema de alertas: notificaciones automáticas a tutores y servicios de apoyo
+3. Protocolo de intervención: contacto proactivo con estudiantes en riesgo (llamadas, tutorías)
+4. Seguimiento: medición del impacto de las intervenciones en la retención
+
+TIMING DE INTERVENCIÓN:
+- Semana 3-4: Primera señal basada en asistencia y primeras evaluaciones
+- Final del 1er parcial: Señal de alta confianza basada en rendimiento académico
+- Final del 1er semestre: Predicción más precisa con datos completos (AUC-ROC típico: 0.88-0.93)
+- Inicio del 2do semestre: Ventana crítica para retener estudiantes en riesgo
+
+EFECTIVIDAD REPORTADA:
+- Sistema de Purdue (Course Signals): reducción de deserción del 21% en primer año
+- University of Arizona: incremento de retención del 8% con alertas basadas en ML
+- Universidad de Málaga: intervención en 12% de estudiantes detectados → tasa de retención del 67% en el grupo intervenido
+
+RECOMENDACIONES PARA INSTITUCIONES LATINOAMERICANAS:
+1. Implementar seguimiento del pago de matrícula como señal de alarma temprana
+2. Monitorear el ratio de unidades aprobadas vs. matriculadas desde la 4a semana
+3. Cruzar rendimiento académico con estado financiero para priorizar intervenciones
+4. Establecer canales de comunicación directa con estudiantes en riesgo (WhatsApp, email institucional)
+5. Capacitar tutores y docentes para identificar señales de comportamiento de riesgo
+
+SISTEMAS MULTI-AGENTE EN EWS:
+La arquitectura multi-agente permite procesar simultáneamente múltiples fuentes de datos (académicos, financieros, de engagement) y generar reportes integrados automáticamente. Los agentes especializados (EDA, ML, RAG) pueden colaborar para producir recomendaciones contextualizadas en tiempo real, combinando análisis cuantitativo con conocimiento de la literatura.
+
+MÉTRICAS DE IMPACTO:
+- Costo-beneficio: cada punto porcentual de mejora en retención equivale a ingresos anuales de $200K-$500K en instituciones medianas
+- ROI de EWS bien implementado: 400-600% en 3 años

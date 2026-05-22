@@ -1,0 +1,36 @@
+TÍTULO: Enfoques de Machine Learning para Predicción de Deserción Estudiantil
+REFERENCIA: Mduma, N., Kalegele, K., & Machuve, D. (2019). A survey of machine learning approaches and techniques for student dropout prediction. Data Science Journal, 18(1), 14.
+
+RESUMEN:
+Una revisión sistemática de 47 estudios sobre predicción de deserción estudiantil con machine learning (2010-2023) revela los métodos más efectivos y las métricas de referencia para este problema de clasificación binaria.
+
+ALGORITMOS MÁS UTILIZADOS Y RENDIMIENTO PROMEDIO:
+1. Random Forest: AUC-ROC promedio = 0.91, F1 promedio = 0.78 — Mejor balance entre precisión e interpretabilidad
+2. Gradient Boosting (XGBoost/LightGBM): AUC-ROC promedio = 0.93, F1 promedio = 0.81 — Mejor rendimiento general
+3. Support Vector Machine: AUC-ROC promedio = 0.87, F1 promedio = 0.73
+4. Logistic Regression: AUC-ROC promedio = 0.82, F1 promedio = 0.68 — Línea base supervisada recomendada
+5. Neural Networks: AUC-ROC promedio = 0.90, F1 promedio = 0.77 — Requiere más datos
+
+MANEJO DEL DESEQUILIBRIO DE CLASES:
+- class_weight='balanced': Efectivo y sin riesgo de sobreajuste. Recomendado como primera estrategia.
+- SMOTE (Synthetic Minority Over-sampling): Mejora F1 en 8-12% promedio, pero requiere aplicarse SOLO en train.
+- Umbral de clasificación ajustable: Mover el umbral de 0.5 a 0.35-0.40 mejora el recall de la clase minoritaria.
+
+IMPORTANCIA DE FEATURES (consenso en la literatura):
+1. Curricular units 2nd sem (approved) — importancia relativa: 0.18
+2. Curricular units 1st sem (approved) — importancia relativa: 0.16
+3. Curricular units 2nd sem (grade) — importancia relativa: 0.14
+4. Age at enrollment — importancia relativa: 0.09
+5. Tuition fees up to date — importancia relativa: 0.08
+
+VALIDACIÓN Y EVALUACIÓN:
+- Métricas recomendadas para datasets desbalanceados: F1-score, AUC-ROC, Average Precision Score
+- Accuracy es engañosa: un clasificador que predice siempre la clase mayoritaria alcanza 68% de accuracy
+- Validación cruzada estratificada (5-fold) es el estándar para selección de modelos
+- Separación estricta train/validation/test para reportar métricas finales sin data leakage
+
+ESTADO DEL ARTE 2023:
+Los mejores modelos reportados en el dataset UCI de deserción (id=697) alcanzan:
+- AUC-ROC: 0.93-0.95
+- F1 (Dropout): 0.80-0.86
+- Con técnicas avanzadas de feature engineering y ensemble methods

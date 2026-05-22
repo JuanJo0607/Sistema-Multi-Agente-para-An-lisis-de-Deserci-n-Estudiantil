@@ -1,0 +1,25 @@
+TÍTULO: Factores Socioeconómicos y Deserción Estudiantil Universitaria
+REFERENCIA: Stratton, L. S., O'Toole, D. M., & Wetzel, J. N. (2008). A multinomial logit model of college stopout and dropout behavior. Economics of Education Review, 27(3), 319-331.
+
+RESUMEN:
+Los factores socioeconómicos representan barreras estructurales que aumentan el riesgo de deserción, particularmente en instituciones de países en desarrollo. Su impacto es mediado por la integración académica, pero ejerce influencia directa sobre la permanencia.
+
+FACTORES SOCIOECONÓMICOS CLAVE:
+1. Estado de pago de matrícula (Tuition fees up to date): El no estar al día con el pago de matrícula multiplica por 4.2 la probabilidad de deserción.
+2. Condición de deudor (Debtor): Los estudiantes deudores tienen 3.1 veces más probabilidad de desertar que quienes no tienen deudas.
+3. Becas (Scholarship holder): Los estudiantes con beca tienen 45% menos probabilidad de desertar, pero solo si el rendimiento académico es satisfactorio.
+4. Nivel educativo de los padres: Hijos de padres con educación universitaria tienen 28% menos probabilidad de desertar.
+5. Género: En promedio, las mujeres tienen 12% menos probabilidad de desertar que los hombres en programas STEM.
+
+DESPLAZADOS E INTERNACIONALES:
+- Estudiantes desplazados (Displaced): mayor riesgo de deserción por factores logísticos y de adaptación.
+- Estudiantes internacionales: riesgo variable según el país de origen y el soporte institucional disponible.
+
+INTERACCIONES RELEVANTES:
+La combinación de "deudor + matrícula no pagada + sin beca" representa el perfil socioeconómico de mayor riesgo, con tasas de deserción superiores al 70%.
+
+POLÍTICA INSTITUCIONAL:
+Las intervenciones focalizadas en apoyo financiero (becas de emergencia, planes de pago flexibles) reducen la deserción asociada a factores económicos en un 30-40% según estudios de impacto.
+
+DATASET UCI - PORTUGAL:
+El dataset de deserción de la Universidad de Portugal refleja tasas de deserción del 30-35%, consistente con promedios europeos. Las variables financieras (Tuition fees, Debtor) son predictores secundarios pero significativos en modelos multivariados.

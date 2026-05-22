@@ -1,0 +1,30 @@
+TÍTULO: Modelo de Integración de Tinto y Deserción Estudiantil
+REFERENCIA: Tinto, V. (1987). Leaving College: Rethinking the Causes and Cures of Student Attrition. University of Chicago Press.
+
+RESUMEN:
+El modelo de integración de Tinto es el marco teórico más influyente para explicar la deserción estudiantil universitaria. Propone que la decisión de abandonar los estudios está determinada por el grado de integración académica y social del estudiante en la institución.
+
+FACTORES DE INTEGRACIÓN ACADÉMICA:
+- Rendimiento en las asignaturas (GPA, unidades aprobadas)
+- Interacción con profesores y tutores
+- Participación en actividades académicas formales
+- Cumplimiento de requisitos curriculares del primer semestre
+
+FACTORES DE INTEGRACIÓN SOCIAL:
+- Participación en actividades extracurriculares
+- Relaciones con compañeros de estudio
+- Sentido de pertenencia a la institución
+- Adaptación al entorno universitario
+
+HALLAZGOS CLAVE:
+1. Los estudiantes con bajo rendimiento en el primer semestre tienen 3.5 veces más probabilidad de desertar que quienes tienen alto rendimiento.
+2. La integración académica predice mejor la retención en instituciones de alta selectividad académica.
+3. Los estudiantes de primera generación universitaria (sin padres con título profesional) enfrentan mayores barreras de integración.
+4. El período crítico para la deserción es el primer año, especialmente los primeros dos semestres.
+
+IMPLICACIONES PARA MODELOS PREDICTIVOS:
+Los modelos de machine learning para predecir deserción deben incluir variables de integración académica (unidades aprobadas, calificaciones del primer semestre) como predictores primarios. Las variables socioeconómicas actúan como factores de riesgo que dificultan la integración.
+
+MÉTRICAS TÍPICAS EN LA LITERATURA:
+- AUC-ROC reportado en modelos basados en Tinto: 0.78 - 0.88
+- F1-score para la clase "Dropout": 0.65 - 0.82

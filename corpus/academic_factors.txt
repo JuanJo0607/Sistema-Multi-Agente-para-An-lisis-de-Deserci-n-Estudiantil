@@ -1,0 +1,27 @@
+TÍTULO: Factores Académicos como Predictores de Deserción Estudiantil
+REFERENCIA: Delen, D. (2010). A comparative analysis of machine learning techniques for student retention management. Decision Support Systems, 49(4), 498-506.
+
+RESUMEN:
+Las variables académicas del primer y segundo semestre son los predictores más robustos de la deserción estudiantil, superando en poder predictivo a las variables socioeconómicas y demográficas.
+
+VARIABLES ACADÉMICAS MÁS PREDICTIVAS (por orden de importancia):
+1. Unidades curriculares aprobadas en el 1er semestre (correlación negativa con deserción: -0.52)
+2. Calificación promedio en el 2do semestre (correlación negativa: -0.48)
+3. Unidades curriculares aprobadas en el 2do semestre (correlación negativa: -0.46)
+4. Ratio aprobadas/matriculadas en el 1er semestre
+5. Número de evaluaciones realizadas en el 1er semestre
+
+HALLAZGOS CUANTITATIVOS:
+- Estudiantes con 0 unidades aprobadas en el primer semestre desertan en un 78% de los casos.
+- Estudiantes con más de 5 unidades aprobadas en el primer semestre desertan en menos del 15% de los casos.
+- Una calificación promedio por debajo de 10 puntos en el primer semestre está asociada con 65% de probabilidad de deserción.
+- El ratio de unidades aprobadas vs. matriculadas por debajo de 0.5 en el primer semestre es el umbral crítico de riesgo.
+
+IMPACTO DEL CRÉDITO PREVIO:
+La calificación en la cualificación previa al ingreso universitario (bachillerato) tiene correlación moderada con la retención (r=0.31), pero es menos predictiva que el rendimiento en el primer semestre universitario.
+
+INTERVENCIÓN TEMPRANA:
+Los sistemas de alerta temprana basados únicamente en el primer semestre alcanzan una precisión del 72-85% para identificar estudiantes en riesgo antes de que la deserción ocurra, lo que permite intervenciones preventivas.
+
+DESEQUILIBRIO DE CLASES:
+En datasets típicos de deserción universitaria, la tasa de deserción varía entre 25% y 45%, creando un desbalance de clases que requiere el uso de métricas como F1-score y AUC-ROC en lugar de accuracy.

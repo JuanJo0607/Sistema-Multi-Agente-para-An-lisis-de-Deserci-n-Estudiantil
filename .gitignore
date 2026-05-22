@@ -44,6 +44,9 @@ desktop.ini
 tmp/
 temp/
 
+# ── Artefactos de empaquetado (Overleaf) ──────────────────────────────────────
+docs/overleaf_informe_final.zip
+
 # ── IDEs ──────────────────────────────────────────────────────────────────────
 .vscode/
 .idea/

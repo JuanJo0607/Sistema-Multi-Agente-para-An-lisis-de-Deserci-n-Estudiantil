@@ -160,7 +160,8 @@ START ────┤                  ├──→ Agente ML ──→ Agente S
 
 ## Integrantes
 
-- Juan Restrepo — juan.restrepo023@gmail.com
+- Juan José Restrepo — jjrestrepc@eafit.edu.co
+- Samuel Cadavid Zapata — scadavidz@eafit.edu.co
 
 ---
 

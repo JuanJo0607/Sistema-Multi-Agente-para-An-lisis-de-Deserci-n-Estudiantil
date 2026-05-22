@@ -167,5 +167,6 @@ START ────┤                  ├──→ Agente ML ──→ Agente S
 
 ## Dataset
 
-Predict Students' Dropout and Academic Success — UCI ML Repository (id=697)
-<https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success>
+Predict Students' Dropout and Academic Success  
+Fuente principal (Kaggle): <https://www.kaggle.com/datasets/ankushpanday1/predict-students-dropout-and-academic-success>  
+Fuente alternativa (UCI ML Repository id=697): <https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success>

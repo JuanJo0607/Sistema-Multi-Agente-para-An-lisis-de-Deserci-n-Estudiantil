@@ -6,7 +6,11 @@
 
 Necesitas tener instalado **Python 3.10 o superior**. Para saber tu versión escribe `python --version` en una terminal.
 
-La API key para el LLM ya viene incluida en el repositorio, así que no hay que crear ninguna cuenta ni configurar nada adicional para esa parte.
+La API key para el LLM se incluye en el correo de entrega del proyecto. Una vez la tengas, crea un archivo llamado `.env` en la raíz del proyecto con este contenido:
+
+```
+GROQ_API_KEY=la_key_que_recibiste
+```
 
 ---
 

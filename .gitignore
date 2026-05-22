@@ -27,10 +27,10 @@ build/
 chroma_db/
 *.chroma
 
-# ── Variables de entorno ──────────────────────────────────────────────────────
-# .env incluido en el repo para que el proyecto funcione sin configuración
+# ── Variables de entorno (contienen API keys) ────────────────────────────────
+.env
 .env.*
-*.env.local
+*.env
 
 # ── Sistema operativo ─────────────────────────────────────────────────────────
 .DS_Store

@@ -31,7 +31,7 @@ Sistema que combina machine learning clásico con un pipeline multi-agente (Lang
 
 ```bash
 # 1. Clonar el repositorio
-git clone <url-del-repositorio>
+git clone <https://github.com/JuanJo0607/Sistema-Multi-Agente-para-An-lisis-de-Deserci-n-Estudiantil>
 cd Sistema-Multi-Agente-para-An-lisis-de-Deserci-n-Estudiantil
 
 # 2. Crear y activar entorno virtual
